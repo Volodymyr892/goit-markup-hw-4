@@ -424,7 +424,7 @@ address{
 
 /*?-----------------FOORET-------------------*/
 .footer {
-    display: flex;
+    /* display: flex; */
     background-color:  #2E2F42;
     padding: 100px 0;
 }
@@ -484,10 +484,12 @@ address{
 }
 
 .footer-container{
+    display: flex;
+}
+.footer-logo{
     margin-right: 120px;
 }
+.footer-container-soc{
+    padding-right: 15px;
 
-/* .footer-container-soc{
-    padding-right:15px;
-    margin: 0 auto;
-} */
+}
