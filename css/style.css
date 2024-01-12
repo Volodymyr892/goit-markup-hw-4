@@ -84,9 +84,12 @@ address{
 .header-menu-list {
     display: flex;
     gap: 40px;
+    margin-right: 332px;
 }
 
-.header-menu-item {}
+.header-menu-item {
+
+}
 
 .heaader-menu-link {
     color:#2E2F42;
@@ -96,19 +99,33 @@ address{
     letter-spacing:0.02em;
     padding: 24px 0 ;
     display: block;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+.heaader-menu-link:first-child{
+    position: relative; 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.heaader-menu-link::after{
+    content: "";
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        border-radius: 2px;
+        background-color: #404BBF;
+        height: 4px;
+        width: 100%;
 }
 .heaader-menu-link:hover,
 .heaader-menu-link:focus {
     color:#404BBF;
 }
 
-.current {
-    position: relative;
-    color: #404BBF;
+/* .current {
+    /* position: relative;
+    color: #404BBF; */
 }
 
-.current::after {
+/* .current::after {
     content: "";
     position: absolute;
     left: 0;
@@ -117,7 +134,7 @@ address{
     background-color: #404BBF;
     height: 4px;
     width: 100%;
-}
+} */ */
 .header-addres {
     font-style:normal;
     margin-left: auto;
