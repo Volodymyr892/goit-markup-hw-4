@@ -99,11 +99,12 @@ address{
     letter-spacing:0.02em;
     padding: 24px 0 ;
     display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .heaader-menu-link:first-child{
     position: relative; 
+    color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 .heaader-menu-link::after{
     content: "";
@@ -114,6 +115,7 @@ address{
         background-color: #404BBF;
         height: 4px;
         width: 100%;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .heaader-menu-link:hover,
 .heaader-menu-link:focus {
