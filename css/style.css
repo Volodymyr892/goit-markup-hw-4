@@ -386,7 +386,7 @@ address{
     position: absolute;
     top: 0;
     padding: 40px 32px 164px;
-    background-color:  #4D5AE5;
+    background-color:#4D5AE5;
     height: 100%;
     transform: translateY(100%);
     transition: transform 250ms linear;
@@ -465,7 +465,7 @@ address{
 }
 .footer-list-icon {
     display: flex;
-    gap: 24px;
+    gap: 16px;
 }
 
 .footer-item-lcon .footer-link-soc {
@@ -482,12 +482,13 @@ address{
 .footer-item-lcon .footer-link-soc:focus{
     background-color: #31D0AA;
 }
-.footer-item-lcon .footer-icon.{
+.footer-icon.{
     fill: #f4f4fd;
 }
 
 .footer-container{
     display: flex;
+    align-items: baseline;
 }
 .footer-logo{
     margin-right: 120px;
