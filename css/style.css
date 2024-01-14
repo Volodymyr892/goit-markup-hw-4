@@ -101,11 +101,11 @@ address{
     display: block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.heaader-menu-link:first-child{
+.current{
     position: relative; 
     color: #404bbf;
 }
-.heaader-menu-link::after{
+.current::after{
     content: "";
         position: absolute;
         left: 0;
@@ -397,9 +397,6 @@ address{
 }
 .made-text-wrap{
    
-}
-.made-item::first-child {
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .made-cover-text{
     color:  #F4F4FD;
