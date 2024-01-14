@@ -84,7 +84,6 @@ address{
 .header-menu-list {
     display: flex;
     gap: 40px;
-    margin-right: 332px;
 }
 
 .header-menu-item {
