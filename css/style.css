@@ -160,6 +160,7 @@ address{
     background-position: 50% 50%;
     background-size: cover;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .hero-container{
@@ -516,6 +517,4 @@ address{
     margin-right: 120px;
 }
 .footer-container-soc{
-    padding-right: 15px;
-
 }
